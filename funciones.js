@@ -7,3 +7,15 @@ recibido('Melina');
 const array = [1,2,3,4,5];
 
 array.forEach((elemento,index) => console.log(`${elemento} está en la posición ${index}`));
+
+
+//COMO DECLARAR OBJETOS LITERALES CORRECTAMENTE
+const perro = {
+    nombre: "perrubi",
+    edad: 6,
+    ladrar(){
+        console.log("guau guau");
+    }
+}
+
+perro.ladrar();
